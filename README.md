@@ -9,3 +9,5 @@ I started by exploring and cleaning the dataset by observing class balance, chec
 I applied TF-IDF vectorization for feature engineering to transform the article texts into numerical features, capturing the importance of words while reducing the impact of commonly used terms. Using these features, I trained a Logistic Regression classifier as a baseline model. I chose Logistic Regression because of its interpretability, efficiency, and strong performance in text classification tasks with high-dimensional sparse data.
 
 The model achieved an overall accuracy of 92% on the test set. Precision and recall were both high and balanced across classes, with precision of 93% and recall of 90% for real news, and precision of 90% and recall of 93% for fake news. The ROC AUC score was approximately 0.916, indicating excellent discriminatory ability. These results demonstrate that the model effectively distinguishes between fake and real news, with a low rate of false positives and false negatives.
+
+<img width="481" height="183" alt="Screen Shot 2025-07-16 at 3 06 57 PM" src="https://github.com/user-attachments/assets/1199e598-936e-40c2-9e2d-c4da86192513" />
